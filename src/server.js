@@ -40,7 +40,7 @@ const errorHandler = function (err, req, res, next) {
 
 // start server
 app.listen(3000, function () {
-	console.log(`Starting server on port 80 in ${app.get("env")} mode`);
+	console.log(`Starting server on port 3000 in ${app.get("env")} mode`);
 });
 
 export default app;
